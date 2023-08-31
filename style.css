@@ -279,6 +279,7 @@ h6{
     color: #1c1b29;
 }
 @media(max-width: 900px){
+ 
     .container .contentBox{
         position: relative;
         min-height: 500px;
@@ -293,11 +294,14 @@ h6{
         padding: 0px;
         padding-bottom: 0;
     }
+    .text {
+        font-size: 15px;
+    }
     
     .container .top .imgBx .box{
         position: relative;
         width: 70%;
-        min-width: 200px;
+        min-width: 190px;
         border-radius: 50%;
         overflow: hidden;
         aspect-ratio: 1;
